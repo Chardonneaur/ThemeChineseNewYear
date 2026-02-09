@@ -1,0 +1,295 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360">
+  <defs>
+    <style>
+      .zodiac { fill: #DE2910; opacity: 0.05; }
+      .zodiac-gold { fill: #C5941F; opacity: 0.045; }
+    </style>
+  </defs>
+
+  <!-- Row 1: Rat, Ox, Tiger, Rabbit -->
+
+  <!-- 1. Rat (0,0) -->
+  <g transform="translate(60,45) scale(0.9)">
+    <!-- Body -->
+    <ellipse class="zodiac" cx="0" cy="5" rx="16" ry="12"/>
+    <!-- Head -->
+    <ellipse class="zodiac" cx="14" cy="-4" rx="10" ry="9"/>
+    <!-- Ears -->
+    <circle class="zodiac" cx="20" cy="-14" r="5"/>
+    <circle class="zodiac" cx="10" cy="-14" r="5"/>
+    <!-- Nose -->
+    <circle class="zodiac" cx="23" cy="-4" r="2"/>
+    <!-- Eye -->
+    <circle class="zodiac-gold" cx="18" cy="-7" r="1.5"/>
+    <!-- Tail -->
+    <path class="zodiac" d="M-16,2 Q-28,-8 -22,-18" fill="none" stroke="#DE2910" stroke-width="2" opacity="0.05"/>
+    <!-- Whiskers -->
+    <line x1="23" y1="-5" x2="32" y2="-8" stroke="#DE2910" stroke-width="0.7" opacity="0.04"/>
+    <line x1="23" y1="-3" x2="32" y2="-2" stroke="#DE2910" stroke-width="0.7" opacity="0.04"/>
+  </g>
+
+  <!-- 2. Ox (120,0) -->
+  <g transform="translate(180,48) scale(0.9)">
+    <!-- Body -->
+    <ellipse class="zodiac" cx="0" cy="0" rx="22" ry="14"/>
+    <!-- Head -->
+    <ellipse class="zodiac" cx="22" cy="-8" rx="10" ry="9"/>
+    <!-- Horns -->
+    <path class="zodiac-gold" d="M18,-17 Q14,-28 10,-22" fill="none" stroke="#C5941F" stroke-width="2.5" opacity="0.045"/>
+    <path class="zodiac-gold" d="M26,-17 Q30,-28 34,-22" fill="none" stroke="#C5941F" stroke-width="2.5" opacity="0.045"/>
+    <!-- Legs -->
+    <rect class="zodiac" x="-12" y="12" width="5" height="14" rx="2"/>
+    <rect class="zodiac" x="-2" y="12" width="5" height="14" rx="2"/>
+    <rect class="zodiac" x="8" y="12" width="5" height="14" rx="2"/>
+    <rect class="zodiac" x="16" y="10" width="5" height="14" rx="2"/>
+    <!-- Eye -->
+    <circle class="zodiac-gold" cx="26" cy="-10" r="1.5"/>
+    <!-- Nose -->
+    <ellipse class="zodiac" cx="30" cy="-4" rx="4" ry="3"/>
+  </g>
+
+  <!-- 3. Tiger (240,0) -->
+  <g transform="translate(300,45) scale(0.9)">
+    <!-- Body -->
+    <ellipse class="zodiac" cx="0" cy="2" rx="20" ry="13"/>
+    <!-- Head -->
+    <ellipse class="zodiac" cx="18" cy="-6" rx="12" ry="10"/>
+    <!-- Ears -->
+    <polygon class="zodiac" points="12,-15 16,-22 20,-14"/>
+    <polygon class="zodiac" points="22,-15 26,-22 28,-14"/>
+    <!-- Stripes -->
+    <line x1="-8" y1="-6" x2="-4" y2="10" stroke="#DE2910" stroke-width="2" opacity="0.04"/>
+    <line x1="-1" y1="-8" x2="3" y2="10" stroke="#DE2910" stroke-width="2" opacity="0.04"/>
+    <line x1="6" y1="-6" x2="10" y2="8" stroke="#DE2910" stroke-width="2" opacity="0.04"/>
+    <!-- Eye -->
+    <circle class="zodiac-gold" cx="22" cy="-9" r="2"/>
+    <!-- Nose -->
+    <circle class="zodiac" cx="28" cy="-5" r="2.5"/>
+    <!-- Legs -->
+    <rect class="zodiac" x="-10" y="12" width="5" height="12" rx="2"/>
+    <rect class="zodiac" x="0" y="12" width="5" height="12" rx="2"/>
+    <rect class="zodiac" x="8" y="11" width="5" height="12" rx="2"/>
+    <!-- Tail -->
+    <path class="zodiac" d="M-20,0 Q-28,-5 -24,-14" fill="none" stroke="#DE2910" stroke-width="2.5" opacity="0.05"/>
+  </g>
+
+  <!-- 4. Rabbit (360,0) -->
+  <g transform="translate(420,48) scale(0.9)">
+    <!-- Body -->
+    <ellipse class="zodiac" cx="0" cy="4" rx="14" ry="12"/>
+    <!-- Head -->
+    <circle class="zodiac" cx="12" cy="-4" r="9"/>
+    <!-- Long ears -->
+    <ellipse class="zodiac" cx="8" cy="-22" rx="3" ry="12"/>
+    <ellipse class="zodiac" cx="16" cy="-22" rx="3" ry="12"/>
+    <!-- Inner ears -->
+    <ellipse class="zodiac-gold" cx="8" cy="-22" rx="1.5" ry="8"/>
+    <ellipse class="zodiac-gold" cx="16" cy="-22" rx="1.5" ry="8"/>
+    <!-- Eye -->
+    <circle class="zodiac-gold" cx="16" cy="-6" r="2"/>
+    <!-- Nose -->
+    <circle class="zodiac" cx="20" cy="-2" r="1.5"/>
+    <!-- Tail (fluffy ball) -->
+    <circle class="zodiac" cx="-14" cy="2" r="4"/>
+    <!-- Hind leg -->
+    <ellipse class="zodiac" cx="-6" cy="14" rx="6" ry="5"/>
+    <!-- Front paw -->
+    <ellipse class="zodiac" cx="10" cy="12" rx="3" ry="4"/>
+  </g>
+
+  <!-- Row 2: Dragon, Snake, Horse, Goat -->
+
+  <!-- 5. Dragon (0,120) -->
+  <g transform="translate(60,165) scale(0.9)">
+    <!-- Body (serpentine) -->
+    <path class="zodiac" d="M-20,10 Q-10,-5 0,5 Q10,15 18,2" fill="none" stroke="#DE2910" stroke-width="8" stroke-linecap="round" opacity="0.05"/>
+    <!-- Head -->
+    <ellipse class="zodiac" cx="22" cy="-2" rx="12" ry="9"/>
+    <!-- Jaw/snout -->
+    <ellipse class="zodiac" cx="32" cy="2" rx="7" ry="5"/>
+    <!-- Horns -->
+    <path class="zodiac-gold" d="M16,-10 L12,-22" fill="none" stroke="#C5941F" stroke-width="2" opacity="0.045"/>
+    <path class="zodiac-gold" d="M24,-10 L28,-22" fill="none" stroke="#C5941F" stroke-width="2" opacity="0.045"/>
+    <!-- Eye -->
+    <circle class="zodiac-gold" cx="26" cy="-4" r="2"/>
+    <!-- Spines along back -->
+    <polygon class="zodiac-gold" points="-14,4 -12,-2 -10,4"/>
+    <polygon class="zodiac-gold" points="-4,0 -2,-6 0,0"/>
+    <polygon class="zodiac-gold" points="6,6 8,0 10,6"/>
+    <!-- Whiskers/tendrils -->
+    <path class="zodiac" d="M34,0 Q40,-6 38,-14" fill="none" stroke="#DE2910" stroke-width="1" opacity="0.04"/>
+    <path class="zodiac" d="M34,4 Q42,2 40,-4" fill="none" stroke="#DE2910" stroke-width="1" opacity="0.04"/>
+    <!-- Small legs -->
+    <line x1="-6" y1="8" x2="-8" y2="18" stroke="#DE2910" stroke-width="2" opacity="0.05"/>
+    <line x1="10" y1="10" x2="12" y2="20" stroke="#DE2910" stroke-width="2" opacity="0.05"/>
+  </g>
+
+  <!-- 6. Snake (120,120) -->
+  <g transform="translate(180,168) scale(0.9)">
+    <!-- Coiled body -->
+    <path class="zodiac" d="M-18,12 Q-22,0 -14,-8 Q-4,-18 8,-10 Q18,-2 12,10 Q8,18 0,14 Q-6,10 -2,4" fill="none" stroke="#DE2910" stroke-width="5" stroke-linecap="round" opacity="0.05"/>
+    <!-- Head -->
+    <ellipse class="zodiac" cx="0" cy="0" rx="7" ry="5"/>
+    <!-- Eye -->
+    <circle class="zodiac-gold" cx="3" cy="-2" r="1.5"/>
+    <!-- Tongue -->
+    <path d="M7,0 L12,-2 L11,1 L14,0" fill="none" stroke="#DE2910" stroke-width="0.8" opacity="0.05"/>
+    <!-- Scale pattern -->
+    <circle class="zodiac-gold" cx="-14" cy="-4" r="1"/>
+    <circle class="zodiac-gold" cx="-6" cy="-14" r="1"/>
+    <circle class="zodiac-gold" cx="14" cy="-6" r="1"/>
+    <circle class="zodiac-gold" cx="10" cy="12" r="1"/>
+  </g>
+
+  <!-- 7. Horse (240,120) -->
+  <g transform="translate(300,165) scale(0.9)">
+    <!-- Body -->
+    <ellipse class="zodiac" cx="0" cy="2" rx="20" ry="12"/>
+    <!-- Neck -->
+    <path class="zodiac" d="M16,-6 Q20,-18 18,-26" fill="none" stroke="#DE2910" stroke-width="8" stroke-linecap="round" opacity="0.05"/>
+    <!-- Head -->
+    <ellipse class="zodiac" cx="20" cy="-28" rx="7" ry="10" transform="rotate(15,20,-28)"/>
+    <!-- Ear -->
+    <polygon class="zodiac" points="18,-38 20,-44 23,-37"/>
+    <!-- Mane -->
+    <path class="zodiac-gold" d="M14,-10 Q10,-18 12,-26 Q14,-32 16,-36" fill="none" stroke="#C5941F" stroke-width="3" opacity="0.04"/>
+    <!-- Eye -->
+    <circle class="zodiac-gold" cx="22" cy="-30" r="1.5"/>
+    <!-- Nostril -->
+    <circle class="zodiac" cx="24" cy="-22" r="1.2"/>
+    <!-- Legs -->
+    <rect class="zodiac" x="-12" y="12" width="4" height="16" rx="1.5"/>
+    <rect class="zodiac" x="-4" y="12" width="4" height="16" rx="1.5"/>
+    <rect class="zodiac" x="6" y="12" width="4" height="16" rx="1.5"/>
+    <rect class="zodiac" x="14" y="10" width="4" height="16" rx="1.5"/>
+    <!-- Tail -->
+    <path class="zodiac" d="M-20,0 Q-28,-4 -30,-14 Q-32,-20 -28,-24" fill="none" stroke="#DE2910" stroke-width="3" opacity="0.04"/>
+  </g>
+
+  <!-- 8. Goat/Sheep (360,120) -->
+  <g transform="translate(420,168) scale(0.9)">
+    <!-- Woolly body -->
+    <circle class="zodiac" cx="-4" cy="2" r="10"/>
+    <circle class="zodiac" cx="4" cy="-2" r="10"/>
+    <circle class="zodiac" cx="-2" cy="6" r="9"/>
+    <circle class="zodiac" cx="6" cy="4" r="9"/>
+    <!-- Head -->
+    <ellipse class="zodiac" cx="16" cy="-6" rx="8" ry="7"/>
+    <!-- Horns (curled) -->
+    <path class="zodiac-gold" d="M12,-12 Q8,-20 4,-18 Q0,-16 2,-12" fill="none" stroke="#C5941F" stroke-width="2" opacity="0.045"/>
+    <path class="zodiac-gold" d="M20,-12 Q24,-20 28,-18 Q32,-16 30,-12" fill="none" stroke="#C5941F" stroke-width="2" opacity="0.045"/>
+    <!-- Eye -->
+    <circle class="zodiac-gold" cx="18" cy="-7" r="1.5"/>
+    <!-- Nose -->
+    <circle class="zodiac" cx="22" cy="-3" r="1.5"/>
+    <!-- Legs -->
+    <rect class="zodiac" x="-8" y="12" width="4" height="12" rx="1.5"/>
+    <rect class="zodiac" x="0" y="12" width="4" height="12" rx="1.5"/>
+    <rect class="zodiac" x="8" y="11" width="4" height="12" rx="1.5"/>
+    <!-- Beard -->
+    <path class="zodiac" d="M22,-1 Q24,6 22,10" fill="none" stroke="#DE2910" stroke-width="1" opacity="0.04"/>
+  </g>
+
+  <!-- Row 3: Monkey, Rooster, Dog, Pig -->
+
+  <!-- 9. Monkey (0,240) -->
+  <g transform="translate(60,285) scale(0.9)">
+    <!-- Body -->
+    <ellipse class="zodiac" cx="0" cy="4" rx="12" ry="14"/>
+    <!-- Head -->
+    <circle class="zodiac" cx="0" cy="-14" r="11"/>
+    <!-- Face (lighter inner) -->
+    <circle class="zodiac-gold" cx="0" cy="-12" r="7"/>
+    <!-- Eyes -->
+    <circle class="zodiac" cx="-3" cy="-14" r="1.5"/>
+    <circle class="zodiac" cx="3" cy="-14" r="1.5"/>
+    <!-- Nose -->
+    <ellipse class="zodiac" cx="0" cy="-10" rx="2" ry="1.5"/>
+    <!-- Ears -->
+    <circle class="zodiac" cx="-11" cy="-14" r="4"/>
+    <circle class="zodiac" cx="11" cy="-14" r="4"/>
+    <circle class="zodiac-gold" cx="-11" cy="-14" r="2.5"/>
+    <circle class="zodiac-gold" cx="11" cy="-14" r="2.5"/>
+    <!-- Arms -->
+    <path class="zodiac" d="M-12,0 Q-20,-4 -22,4" fill="none" stroke="#DE2910" stroke-width="3" opacity="0.05"/>
+    <path class="zodiac" d="M12,0 Q20,-4 22,4" fill="none" stroke="#DE2910" stroke-width="3" opacity="0.05"/>
+    <!-- Tail (curled) -->
+    <path class="zodiac" d="M0,18 Q-10,22 -14,16 Q-18,10 -14,6" fill="none" stroke="#DE2910" stroke-width="2.5" opacity="0.05"/>
+  </g>
+
+  <!-- 10. Rooster (120,240) -->
+  <g transform="translate(180,285) scale(0.9)">
+    <!-- Body -->
+    <ellipse class="zodiac" cx="0" cy="4" rx="14" ry="12"/>
+    <!-- Neck -->
+    <rect class="zodiac" x="8" y="-12" width="8" height="14" rx="3"/>
+    <!-- Head -->
+    <circle class="zodiac" cx="12" cy="-16" r="8"/>
+    <!-- Comb -->
+    <path class="zodiac-gold" d="M8,-24 Q10,-28 12,-24 Q14,-28 16,-24 Q18,-28 18,-23" fill="#C5941F" opacity="0.05"/>
+    <!-- Beak -->
+    <polygon class="zodiac-gold" points="20,-16 28,-14 20,-12"/>
+    <!-- Wattle -->
+    <ellipse class="zodiac" cx="18" cy="-10" rx="2" ry="3"/>
+    <!-- Eye -->
+    <circle class="zodiac-gold" cx="14" cy="-17" r="1.5"/>
+    <!-- Tail feathers -->
+    <path class="zodiac" d="M-14,0 Q-24,-8 -22,-20" fill="none" stroke="#DE2910" stroke-width="2.5" opacity="0.05"/>
+    <path class="zodiac-gold" d="M-14,2 Q-26,-4 -26,-16" fill="none" stroke="#C5941F" stroke-width="2" opacity="0.045"/>
+    <path class="zodiac" d="M-13,4 Q-28,0 -30,-12" fill="none" stroke="#DE2910" stroke-width="2" opacity="0.05"/>
+    <!-- Legs -->
+    <line x1="-2" y1="14" x2="-4" y2="24" stroke="#DE2910" stroke-width="2" opacity="0.05"/>
+    <line x1="6" y1="14" x2="4" y2="24" stroke="#DE2910" stroke-width="2" opacity="0.05"/>
+    <!-- Feet -->
+    <path d="M-8,24 L-4,24 L-2,28 M-4,24 L-6,28" fill="none" stroke="#DE2910" stroke-width="1" opacity="0.04"/>
+    <path d="M0,24 L4,24 L6,28 M4,24 L2,28" fill="none" stroke="#DE2910" stroke-width="1" opacity="0.04"/>
+  </g>
+
+  <!-- 11. Dog (240,240) -->
+  <g transform="translate(300,288) scale(0.9)">
+    <!-- Body -->
+    <ellipse class="zodiac" cx="0" cy="2" rx="18" ry="12"/>
+    <!-- Head -->
+    <circle class="zodiac" cx="18" cy="-6" r="10"/>
+    <!-- Snout -->
+    <ellipse class="zodiac" cx="26" cy="-2" rx="6" ry="5"/>
+    <!-- Floppy ears -->
+    <ellipse class="zodiac" cx="12" cy="-2" rx="4" ry="8" transform="rotate(-20,12,-2)"/>
+    <ellipse class="zodiac" cx="22" cy="-2" rx="4" ry="8" transform="rotate(15,22,-2)"/>
+    <!-- Eye -->
+    <circle class="zodiac-gold" cx="20" cy="-8" r="2"/>
+    <!-- Nose -->
+    <circle class="zodiac" cx="30" cy="-2" r="2.5"/>
+    <!-- Legs -->
+    <rect class="zodiac" x="-10" y="12" width="5" height="12" rx="2"/>
+    <rect class="zodiac" x="-1" y="12" width="5" height="12" rx="2"/>
+    <rect class="zodiac" x="8" y="11" width="5" height="12" rx="2"/>
+    <!-- Tail (upward) -->
+    <path class="zodiac" d="M-18,0 Q-24,-6 -20,-16 Q-18,-20 -16,-18" fill="none" stroke="#DE2910" stroke-width="2.5" opacity="0.05"/>
+  </g>
+
+  <!-- 12. Pig (360,240) -->
+  <g transform="translate(420,288) scale(0.9)">
+    <!-- Body (round) -->
+    <ellipse class="zodiac" cx="0" cy="2" rx="18" ry="14"/>
+    <!-- Head -->
+    <circle class="zodiac" cx="16" cy="-4" r="10"/>
+    <!-- Snout (prominent) -->
+    <ellipse class="zodiac" cx="24" cy="-2" rx="5" ry="4"/>
+    <!-- Nostrils -->
+    <circle class="zodiac-gold" cx="23" cy="-2" r="1"/>
+    <circle class="zodiac-gold" cx="26" cy="-2" r="1"/>
+    <!-- Ears (triangular, floppy) -->
+    <path class="zodiac" d="M10,-12 Q8,-22 14,-18 Z"/>
+    <path class="zodiac" d="M18,-12 Q22,-22 24,-16 Z"/>
+    <!-- Eye -->
+    <circle class="zodiac-gold" cx="18" cy="-6" r="1.5"/>
+    <!-- Legs (short) -->
+    <rect class="zodiac" x="-10" y="14" width="5" height="8" rx="2"/>
+    <rect class="zodiac" x="-1" y="14" width="5" height="8" rx="2"/>
+    <rect class="zodiac" x="6" y="13" width="5" height="8" rx="2"/>
+    <rect class="zodiac" x="13" y="12" width="5" height="8" rx="2"/>
+    <!-- Curly tail -->
+    <path class="zodiac" d="M-18,0 Q-24,-2 -24,-8 Q-24,-14 -20,-12 Q-16,-10 -18,-6" fill="none" stroke="#DE2910" stroke-width="2" opacity="0.05"/>
+  </g>
+</svg>

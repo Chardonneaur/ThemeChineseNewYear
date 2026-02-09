@@ -1,0 +1,130 @@
+/**
+ * ThemeChineseNewYear - Festive red and gold theme stylesheet
+ */
+
+// === GRAPH COLOR OVERRIDES — reds, golds, and festive accents ===
+@graph-colors-data-series0: #DE2910; // Chinese red
+@graph-series0-shade1-color: #E85040;
+@graph-series0-shade2-color: #DE2910;
+@graph-series0-shade3-color: #B01E0A;
+
+@graph-colors-data-series1: #C5941F; // imperial gold
+@graph-series1-shade1-color: #DAB44A;
+@graph-series1-shade2-color: #C5941F;
+@graph-series1-shade3-color: #A07818;
+
+@graph-colors-data-series2: #8B0000; // deep red
+@graph-series2-shade1-color: #A52A2A;
+@graph-series2-shade2-color: #8B0000;
+@graph-series2-shade3-color: #660000;
+
+@graph-colors-data-series3: #E86825; // lantern orange
+@graph-series3-shade1-color: #F09050;
+@graph-series3-shade2-color: #E86825;
+@graph-series3-shade3-color: #C0541A;
+
+@graph-colors-data-series4: #A52A2A; // deep crimson
+@graph-series4-shade1-color: #C45050;
+@graph-series4-shade2-color: #B03535;
+@graph-series4-shade3-color: #8B1A1A;
+
+@graph-colors-data-series5: #DAA520; // goldenrod
+@graph-series5-shade1-color: #E8C050;
+@graph-series5-shade2-color: #DAA520;
+@graph-series5-shade3-color: #B08818;
+
+@graph-colors-data-series6: #B22222; // firebrick
+@graph-series6-shade1-color: #D04848;
+@graph-series6-shade2-color: #B22222;
+@graph-series6-shade3-color: #8B1A1A;
+
+@graph-colors-data-series7: #CD853F; // peru / tan gold
+@graph-series7-shade1-color: #DCA868;
+@graph-series7-shade2-color: #CD853F;
+@graph-series7-shade3-color: #A06830;
+
+// === GLOBAL ===
+
+body {
+    background-color: @theme-color-background-base;
+    background-image: url(plugins/ThemeChineseNewYear/images/pattern.svg);
+    background-repeat: repeat;
+    background-size: 480px 360px;
+    color: @theme-color-text;
+}
+
+.card {
+    background-color: @theme-color-background-contrast;
+    box-shadow: 0 1px 4px rgba(139, 0, 0, 0.12);
+}
+
+.card-content {
+    background-color: @theme-color-background-contrast;
+}
+
+// === GRAPH GRID ===
+
+.evolution-graph-colors[data-name=grid-background] {
+    color: #ffffff;
+}
+
+.evolution-graph-colors[data-name=grid-border] {
+    color: #FFE8D0;
+}
+
+.evolution-graph-colors[data-name=ticks] {
+    color: #E8C4A0;
+}
+
+// === VISITOR MAP — red and gold gradient ===
+
+.visitor-map[data-name=no-data-color] { color: #FFF8F0; }
+.visitor-map[data-name=one-country-color] { color: #FFE0B2; }
+.visitor-map[data-name=color-range-start-choropleth] { color: #FFD0A0; }
+.visitor-map[data-name=color-range-end-choropleth] { color: #8B0000; }
+.visitor-map[data-name=color-range-start-normal] { color: #8B0000; }
+.visitor-map[data-name=color-range-end-normal] { color: #8B0000; }
+.visitor-map[data-name=country-highlight-color] { color: #FFD700; }
+.visitor-map[data-name=country-selected-color] { color: #FFD700; }
+.visitor-map[data-name=region-highlight-color] { color: #FFD700; }
+.visitor-map[data-name=region-selected-color] { color: #FFD700; }
+.visitor-map[data-name=region-stroke-color] { color: #DE2910; }
+.visitor-map[data-name=region-layer-stroke-color] { color: #E8C4A0; }
+.visitor-map[data-name=special-metrics-color-scale-1] { color: #8B0000; }
+.visitor-map[data-name=special-metrics-color-scale-2] { color: #8B0000; }
+.visitor-map[data-name=special-metrics-color-scale-3] { color: #DE2910; }
+.visitor-map[data-name=special-metrics-color-scale-4] { color: #DE2910; }
+
+.realtime-map[data-name=white-fill] { color: #FFF8F0; }
+.realtime-map[data-name=white-bg] { color: #FFE8D0; }
+
+code {
+    background-color: @theme-color-code-background;
+    color: @theme-color-code;
+}
+
+pre {
+    background-color: @theme-color-code-background;
+    color: @theme-color-code;
+}
+
+blockquote {
+    border-left-color: @theme-color-brand;
+}
+
+// === EVOLUTION INDICATORS — override default green ===
+
+.metricEvolution > .positive-evolution {
+    color: #C5941F;
+}
+
+.metricEvolution > .negative-evolution {
+    color: #A52A2A;
+}
+
+// === SPARKLINE COLORS — remove green tints ===
+
+.sparkline-colors[data-name=lineColor] { color: #8B0000; }
+.sparkline-colors[data-name=maxPointColor] { color: #C5941F; }
+.sparkline-colors[data-name=minPointColor] { color: #A52A2A; }
+.sparkline-colors[data-name=lastPointColor] { color: #DE2910; }

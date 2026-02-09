@@ -1,0 +1,27 @@
+{
+    "name": "ThemeChineseNewYear",
+    "description": "A festive Chinese New Year theme with red and gold colors, featuring a subtle repeating lantern and cloud pattern background.",
+    "version": "1.0.0",
+    "theme": true,
+    "stylesheet": "stylesheets/main.less",
+    "require": {
+        "matomo": ">=5.0.0-b1,<6.0.0-b1"
+    },
+    "authors": [
+        {
+            "name": "Chardonneaur",
+            "homepage": "https://github.com/Chardonneaur"
+        }
+    ],
+    "license": "GPL-3.0+",
+    "homepage": "https://github.com/Chardonneaur/ThemeChineseNewYear",
+    "keywords": [
+        "theme",
+        "chinese",
+        "new year",
+        "red",
+        "gold",
+        "lunar"
+    ],
+    "category": "theme"
+}
