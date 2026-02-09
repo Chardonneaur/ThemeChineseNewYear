@@ -1,6 +1,6 @@
 {
     "name": "ThemeChineseNewYear",
-    "description": "A festive Chinese New Year theme with red and gold colors, featuring a subtle repeating lantern and cloud pattern background.",
+    "description": "A festive Chinese New Year theme with red and gold colors and a zodiac animal background pattern.",
     "version": "1.0.0",
     "theme": true,
     "stylesheet": "stylesheets/main.less",
@@ -18,10 +18,14 @@
     "keywords": [
         "theme",
         "chinese",
-        "new year",
+        "new-year",
         "red",
         "gold",
-        "lunar"
+        "lunar",
+        "zodiac"
     ],
-    "category": "theme"
+    "support": {
+        "issues": "https://github.com/Chardonneaur/ThemeChineseNewYear/issues",
+        "source": "https://github.com/Chardonneaur/ThemeChineseNewYear"
+    }
 }
