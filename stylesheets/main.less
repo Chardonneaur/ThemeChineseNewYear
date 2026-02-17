@@ -47,11 +47,37 @@
 
 body {
     background-color: @theme-color-background-base;
-    background-image: url(plugins/ThemeChineseNewYear/images/pattern.svg);
-    background-repeat: repeat;
-    background-size: 480px 360px;
     color: @theme-color-text;
+    position: relative;
 }
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    height: ~"calc(100% - 90px)";
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 1200px auto;
+    opacity: 0.15;
+    pointer-events: none;
+    z-index: -1;
+}
+
+body.zodiac-rat::before { background-image: url(plugins/ThemeChineseNewYear/images/rat.png); }
+body.zodiac-ox::before { background-image: url(plugins/ThemeChineseNewYear/images/ox.png); }
+body.zodiac-tiger::before { background-image: url(plugins/ThemeChineseNewYear/images/tiger.png); }
+body.zodiac-rabbit::before { background-image: url(plugins/ThemeChineseNewYear/images/rabbit.png); }
+body.zodiac-dragon::before { background-image: url(plugins/ThemeChineseNewYear/images/dragon.png); }
+body.zodiac-snake::before { background-image: url(plugins/ThemeChineseNewYear/images/snake.png); }
+body.zodiac-horse::before { background-image: url(plugins/ThemeChineseNewYear/images/horse.png); }
+body.zodiac-goat::before { background-image: url(plugins/ThemeChineseNewYear/images/goat.png); }
+body.zodiac-monkey::before { background-image: url(plugins/ThemeChineseNewYear/images/monkey.png); }
+body.zodiac-rooster::before { background-image: url(plugins/ThemeChineseNewYear/images/rooster.png); }
+body.zodiac-dog::before { background-image: url(plugins/ThemeChineseNewYear/images/dog.png); }
+body.zodiac-pig::before { background-image: url(plugins/ThemeChineseNewYear/images/pig.png); }
 
 .card {
     background-color: @theme-color-background-contrast;
