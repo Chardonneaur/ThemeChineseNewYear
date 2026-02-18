@@ -21,10 +21,6 @@ Celebrate the Lunar New Year with this festive Matomo theme. It transforms your 
 - **Themed visitor map** — red-to-gold gradient with gold highlights for selected countries
 - **Clean card layout** — white content cards with warm shadows over the background
 
-### Screenshot
-
-![Dashboard with Chinese New Year theme](screenshots/dashboard.png)
-
 ## Requirements
 
 - Matomo >= 5.0

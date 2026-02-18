@@ -1,7 +1,7 @@
 {
     "name": "ThemeChineseNewYear",
     "description": "A festive Chinese New Year theme with red and gold colors and a zodiac animal background pattern.",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "theme": true,
     "stylesheet": "stylesheets/main.less",
     "require": {

@@ -1,3 +1,7 @@
+## 2.0.1
+
+- Fix broken screenshot image in Marketplace description
+
 ## 2.0.0
 
 - Yearly zodiac animal background — 12 individual images with subtle opacity, automatically rotating based on the Chinese zodiac cycle
